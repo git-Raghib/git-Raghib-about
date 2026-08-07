@@ -128,5 +128,5 @@
 <p align="center">⭐ Thanks for visiting my GitHub profile! Feel free to explore my repositories and follow my journey. ⭐</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=blue" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=git-Raghib&style=flat-square&color=blue" alt="profile views" />
 </p>
