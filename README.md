@@ -28,7 +28,6 @@
 ### 🛠️ Tech Stack
 
 **Languages**
-
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -38,7 +37,6 @@
 </p>
 
 **Frontend**
-
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
@@ -46,21 +44,18 @@
 </p>
 
 **Backend**
-
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
 </p>
 
 **Database**
-
 <p>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
 **Tools**
-
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
@@ -83,14 +78,14 @@
 
 ### 📂 Featured Projects
 
-| Project | Description |
-|---|---|
-| 📱 **MERN Stack Applications** | Full-stack apps built with MongoDB, Express, React, and Node.js |
-| 🐍 **Python Beginner Projects** | A collection of foundational Python projects |
-| 📐 **Area Calculator** | A simple utility to calculate area for various shapes |
-| 🍔 **Fast Food Billing System** | A billing system project for a fast-food scenario |
-| 🔢 **DSA Solutions (C & Python)** | Data Structures & Algorithms solutions and practice |
-| 🚀 **More exciting projects coming soon...** | Stay tuned! |
+| Project | Description | Status |
+|---|---|---|
+| 📱 **MERN Stack Applications** | Full-stack apps built with MongoDB, Express, React, and Node.js | 🚧 In Progress |
+| 🐍 **Python Beginner Projects** | A collection of foundational Python projects | ✅ Complete |
+| 📐 **Area Calculator** | A simple utility to calculate area for various shapes | ✅ Complete |
+| 🍔 **Fast Food Billing System** | A billing system project for a fast-food scenario | ✅ Complete |
+| 🔢 **DSA Solutions** | Data Structures & Algorithms solutions in C & Python | 🚧 In Progress |
+| 🚀 **E-Commerce Platform** | Full-featured online store with payment integration | 🔜 Coming Soon |
 
 ---
 
@@ -102,31 +97,37 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=git-Raghib&theme=tokyonight&hide_border=true" />
 </p>
 
-> 🔧 Replace `YOUR_GITHUB_USERNAME` above with your actual GitHub username to activate these live stat cards.
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=git-Raghib&theme=tokyonight&row=2&column=3" />
+</p>
 
 ---
 
-### 🌱 Philosophy
+### 💡 Code Snapshot
 
-> *"Code. Learn. Build. Improve. Repeat."*
->
-> I believe consistent learning and hands-on practice are the keys to becoming a better software engineer.
+```python
+# Example: Two Sum Problem - O(n) solution
+def two_sum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return []
 
----
-
-### 📫 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/m-raghib-rahi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/git-Raghib"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center">⭐ Thanks for visiting my GitHub profile! Feel free to explore my repositories and follow my journey. ⭐</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=git-Raghib&style=flat-square&color=blue" alt="profile views" />
-</p>
+# Example: Binary Search - O(log n) solution
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
