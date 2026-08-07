@@ -102,9 +102,10 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=git-Raghib&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
 </p>
 
+> 🔧 Replace `YOUR_GITHUB_USERNAME` above with your actual GitHub username to activate these live stat cards.
 
 ---
 
@@ -121,11 +122,11 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/m-raghib-rahi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/git-Raghib"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="farooqueraghib01@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center">⭐ Thanks for visiting my GitHub profile! Feel free to explore my repositories and follow my journey. ⭐</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=blue" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=git-Raghib&style=flat-square&color=blue" alt="profile views" />
 </p>
