@@ -105,8 +105,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=git-Raghib&theme=tokyonight&hide_border=true" />
 </p>
 
-> 🔧 Replace `git-Raghib` above with your actual GitHub username to activate these live stat cards.
-
 ---
 
 ### 🌱 Philosophy
